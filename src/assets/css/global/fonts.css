@@ -7,39 +7,11 @@
     font-weight: 800;
     src:
       local(''),
-      url('/assets/fonts/veteran_typewriter/veteran_typewriter.woff2') format('woff2');
+      url(/assets/fonts/veteran_typewriter/veteran_typewriter.woff2) format('woff2');
   }
 
-  @font-face {
-    font-family: Figtree;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 700;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-bold.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: Figtree;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-medium.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: Figtree;
-    font-style: italic;
-    font-display: swap;
-    font-weight: 500;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-mediumitalic.woff2') format('woff2');
-  }
-}
+  
+ }
 
 /* Set up for modern browsers, all weights */
 @supports (font-variation-settings: normal) {
@@ -78,6 +50,15 @@
     url(/assets/fonts/stackyard/Stackyard.woff2) format('woff2');
 }
 
+@font-face{
+  font-family: veteran_typewriter;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+    src:
+      local(''),
+      url(/assets/fonts/veteran_typewriter/veteran_typewriter.woff2) format('woff2');
+}
 @font-face {
   font-family: 'RobotoMono';
   font-style: normal;
@@ -85,5 +66,6 @@
   font-weight: normal;
   src:
     local(''),
-    url(/assets/fonts/robotomono/robotomono-regular.woff2) format('woff2');
+    url(/assets/fonts/robotomono/robotomono-regular.woff2) 
+    format('woff2');
 }
